@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %} Dashboard {% endblock title %}
+{% block blogactive %} active {% endblock blogactive %}
+        {% csrf_token %}
+{% block body %}
+<div class="container" style="padding-top: 30px">
+<p>Hi </p>
+<p>This is your Dashboard</p></div>
+{% endblock %}
